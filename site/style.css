@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    height: auto;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+section {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+/* título do post, data e hora */
+h2, h6 {
+    text-align: center;
+}
+/* Subtítulo */
+h4 {
+    margin: 1em;
+    font-size: 26px;
+}
+
+article {
+    border: none;
+    margin: 5px 10px;
+    padding: 1em;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover {
+    color: grey;
+}
+
+footer {
+    padding: 3em;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;   
+}
+
+.link:hover {
+    color: grey;
+}
